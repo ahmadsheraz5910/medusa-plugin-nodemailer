@@ -232,7 +232,7 @@ class EmailSenderService extends NotificationService {
 				};
 			}
 			default: {
-				return {};
+				return eventData;
 			}
 		}
 	}
